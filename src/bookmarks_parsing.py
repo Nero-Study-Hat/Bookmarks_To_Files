@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-with open("bookmarks_12_25_22.html", "r") as file:
+with open("bookmarks_5_20_23.html", "r") as file:
     bookmarks_doc = BeautifulSoup(file, "html.parser")
 
 _dt_items: list = bookmarks_doc.find_all("dt")
